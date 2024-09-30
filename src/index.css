@@ -1,13 +1,40 @@
-body {
+@font-face {
+  font-family: "Graphik";
+  font-weight: 400;
+  src: url("../public/fonts/GraphikRegular.woff") format("woff"),
+    url("../public/fonts/GraphikRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 700;
+  src: url("../public/fonts/GraphikBold.woff") format("woff"),
+    url("../public/fonts/GraphikBold.ttf") format("truetype");
+}
+
+:root {
+  --color-1: #f1f8fc;
+  --color-2: #0074c7;
+  --color-3: #00497c;
+  --color-4: #384050;
+  --color-5: #cd2c2e;
+  --color-6: #82b864;
+}
+
+* {
+  font-family: "Graphik";
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-3);
+}
+
+@media (min-width: 992px) {
 }
