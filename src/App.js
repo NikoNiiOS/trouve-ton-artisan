@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import data from "./data/datas.json";
+import NotFound from "./pages/NotFound";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Header onSearch={handleSearch}/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/*" element={<NotFound/>} />
       </Routes>
       <Footer />
     </div>

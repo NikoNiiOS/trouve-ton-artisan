@@ -27,15 +27,15 @@ function Home() {
       <div>
         <h2>Comment trouver mon artisan ?</h2>
         <ol>
-          <li>Choisir la catégorie d’artisanat dans le menu.</li>
-          <li>Choisir un artisan.</li>
-          <li>Le contacter via le formulaire de contact.</li>
-          <li>Une réponse vous sera apportée sous 48h.</li>
+          <li className="home-li left">Choisir la catégorie d’artisanat dans le menu.</li>
+          <li className="home-li right">Choisir un artisan.</li>
+          <li className="home-li left">Le contacter via le formulaire de contact.</li>
+          <li className="home-li right">Une réponse vous sera apportée sous 48h.</li>
         </ol>
       </div>
       <div className="sep2"></div>
       <h2>Les artisans du mois</h2>
-      <ul className="row list-card">{artisans}</ul>
+      <ul className="row list-card list-artisan">{artisans}</ul>
     </section>
   );
 }
