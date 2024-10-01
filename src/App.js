@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import data from "./data/datas.json";
 import NotFound from "./pages/NotFound";
+import SearchCategory from "./pages/SearchCategory";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Header onSearch={handleSearch}/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/category/:artisanCategory" element={<SearchCategory />} />
         <Route path="/*" element={<NotFound/>} />
       </Routes>
       <Footer />
