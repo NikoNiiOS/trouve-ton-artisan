@@ -46,7 +46,7 @@ function Header( {onSearch} ) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav d-flex justify-content-around">
+            <ul className="navbar-nav d-flex justify-content-around nav-list">
               <li
                 className={`nav-item fs-4 ${
                   activeLink === "/category/Bâtiment" ? "active" : ""
