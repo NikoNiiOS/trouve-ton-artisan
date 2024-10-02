@@ -49,3 +49,7 @@ h4 {
 .page h1 {
   text-transform: uppercase;
 }
+
+ul {
+  padding-left: 0;
+}
