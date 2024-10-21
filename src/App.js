@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Header onSearch={handleSearch} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/category/:artisanCategory" element={<SearchCategory />} />
         <Route path="/details/:artisanId" element={<Details />} />
         <Route
