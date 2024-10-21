@@ -27,7 +27,7 @@ function Header( {onSearch} ) {
     <header>
       <nav className="navbar navbar-expand-lg bg-white shadow">
         <div className="container-fluid align-items-center">
-          <a className="navbar-brand ms-5 logo" href="/home">
+          <a className="navbar-brand ms-5 logo" href="/">
             <img
               src="img/Logo.png"
               className="s-0"
