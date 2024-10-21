@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/trouve-ton-artisan/static/css/main.839ef38a.css",
+    "main.js": "/trouve-ton-artisan/static/js/main.69796b2e.js",
+    "static/js/453.a667ee64.chunk.js": "/trouve-ton-artisan/static/js/453.a667ee64.chunk.js",
+    "static/media/GraphikBold.ttf": "/trouve-ton-artisan/static/media/GraphikBold.fa0af7bbd2a39018c30f.ttf",
+    "static/media/GraphikRegular.ttf": "/trouve-ton-artisan/static/media/GraphikRegular.3bb81f92d02a3e6604b2.ttf",
+    "static/media/GraphikBold.woff": "/trouve-ton-artisan/static/media/GraphikBold.4cb899289cb8f42298f0.woff",
+    "static/media/GraphikRegular.woff": "/trouve-ton-artisan/static/media/GraphikRegular.426db336bc015d1bc194.woff",
+    "index.html": "/trouve-ton-artisan/index.html",
+    "main.839ef38a.css.map": "/trouve-ton-artisan/static/css/main.839ef38a.css.map",
+    "main.69796b2e.js.map": "/trouve-ton-artisan/static/js/main.69796b2e.js.map",
+    "453.a667ee64.chunk.js.map": "/trouve-ton-artisan/static/js/453.a667ee64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.839ef38a.css",
+    "static/js/main.69796b2e.js"
+  ]
+}
